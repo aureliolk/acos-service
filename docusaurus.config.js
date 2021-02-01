@@ -13,7 +13,7 @@ module.exports = {
         alt: 'Desnvolvimento Web',
         src: 'img/logoV4.png',
       },
-      items: [
+      links: [
         {
           to:' ',
           label : 'Home',
