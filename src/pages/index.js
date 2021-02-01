@@ -140,9 +140,9 @@ function Home() {
             </div>
           </section>
         )}
-        {/* <div className='container'> */}
+        <div className='container'>
           <h2 className='services'>Nossos Serviços</h2>
-        {/* </div> */}
+        </div>
         {features_v2 && features_v2.length && (
           <section className={styles.features}>
             <div className="container">
