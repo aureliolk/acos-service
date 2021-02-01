@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Acos Services',
+  tagline: 'Desnvolvimento Web para Sites Lojas e LandPages',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -11,7 +11,7 @@ module.exports = {
       title: 'Acos Services',
       logo: {
         alt: 'Desnvolvimento Web',
-        src: 'img/logo.svg',
+        src: 'img/logoV4.png',
       },
       links: [
         {
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/aureliolk',
           label: 'GitHub',
           position: 'right',
         },
