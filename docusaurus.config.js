@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Acos Services',
-  tagline: 'Desnvolvimento Web para Sites Lojas e LandPages',
+  tagline: 'Sua agência para criação de sites, lojas e landpges profissionais',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,19 +8,34 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Acos Services',
+      // title: 'Acos Services',
       logo: {
         alt: 'Desnvolvimento Web',
         src: 'img/logoV4.png',
       },
-      links: [
+      items: [
         {
-          to: 'docs/doc1',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to:' ',
+          label : 'Home',
+          position: 'right'
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to:'src/pages/portifolio.html',
+          label: 'Portifolio',
+          position: 'right'
+        },
+        {
+          to:'src/pages/servico.html',
+          label:'Serviços',
+          position:'right'
+        },
+        // {
+        //   to: 'docs/doc1',
+        //   activeBasePath: 'docs',
+        //   label: 'Portifolio',
+        //   position: 'right',
+        // },
+        // {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/aureliolk',
           label: 'GitHub',
