@@ -8,9 +8,9 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Acos Services',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Desnvolvimento Web',
         src: 'img/logo.svg',
       },
       links: [
