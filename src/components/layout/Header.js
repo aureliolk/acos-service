@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Button from '../elements/Button';
+
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -123,7 +125,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>WhatsApp</Link>
+                        <Button tag="a" target="-blank" href="https://wa.me/message/VSILFOZBPUPWG1" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>WhatsApp</Button>
                       </li>
                     </ul>}
                 </div>
