@@ -18,10 +18,29 @@ const trackPage = page => {
   ReactGA.pageview(page);
 };
 
+
+function classChange(){
+  let item = document.querySelectorAll('ul.tags_ul li')
+  let x = Math.round(Math.random()*(0 + 10))
+  
+  for(let i=0;i<10;i++){
+    if(item[i].className === 'active'){
+      item[i].className = 'desactive'
+    }
+    item[x].className = 'active'
+  }
+}
+setInterval(classChange, 3000);
+
 const App = () => {
 
   const childRef = useRef();
   let location = useLocation();
+
+
+  useEffect(()=>{
+    classChange()
+  },[])
 
   useEffect(() => {
     const page = location.pathname;
